@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg,#E3D7FF, #AFA2FF); 
+    color:black
+}
+h1{
+    color:#390040;
+}
+h1#Principal{
+    font-family:'Protest Strike', Arial, Verdana, sans-serif ;
+    text-align: center;
+    background-color: #390040;
+    color:white;
+}
+h2{
+    color: #7B287D;
+}
+.basico{
+    color: #7B287D;
+}
+.intermediario{
+    color: #FF87AB;
+
+}
+.avançado{
+    color: #7067CF;
+}

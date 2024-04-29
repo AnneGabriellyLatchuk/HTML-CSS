@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: normal;
+        font-style: italic;
+        text-decoration: underline;
+        /*Shorthand font
+        condença diversas informações num pequeno espaço, entretante tem que sempre lembrar a ordem de colocar as informações 
+        
+        - font-style -> font-weight -> font-size -> font-family */
+    }
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        text-shadow: 1px 1px 0px black;
+    }
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    p{
+        text-align: justify;
+    }

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    span#hamburgue {
+        display: none;
+    }
+
+    nav{
+        display: block;
+    }
+
+    nav > a{
+        display: inline-block;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    main{
+        width: 768px;
+    }
+}

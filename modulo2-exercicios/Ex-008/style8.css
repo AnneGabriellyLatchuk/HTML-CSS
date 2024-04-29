@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(90deg, #664E4C, #F9D4BB);
+
+}
+h1{
+    color:#BF8B85;
+    background-color: #DABECA;
+    text-align: center;
+}
+div{
+    display: inline-block;
+    background-color: #DABECA;
+    border-radius: 10px;
+    border: 1px solid #664E4C;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+div:hover{
+    background-color: #B6465F;
+    text-align: center;
+}

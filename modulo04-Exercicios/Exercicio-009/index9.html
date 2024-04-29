@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style9.css">
+    <title>Checkbox e Radio Button</title>
+</head>
+<body>
+    <header>
+        <h1>Checkbox e Radio Button</h1>
+    </header>
+    <main>
+        <h2>Exemplo de Formulário</h2>
+
+        <form action="cadastro.php" autocomplete="on">
+            <fieldset>
+                <legend>Gênero</legend>
+                <input type="radio" name="gen" id="igen-fem"><label for="igen-fem">Feminino</label><br>
+                <input type="radio" name="gen" id="igen-mas"><label for="igen-mas">Maculino</label>
+            </fieldset>
+            <fieldset>
+                <legend>Esportes Favoritos</legend>
+                <input type="checkbox" name="esp-fut" id="iesp-fut"> <label for="iesp-fut">Futebol</label> <br>
+                <input type="checkbox" name="esp-vole" id="iesp-vole"> <label for="iesp-vole">Vôlei</label> <br>
+                <input type="checkbox" name="esp-bas" id="iesp-bas"> <label for="iesp-bas">Basquete</label> <br>
+                <input type="checkbox" name="esp-nat" id="iesp-nat"> <label for="iesp-nat">Natação</label> <br>
+                <input type="checkbox" name="esp-ten" id="iesp-ten"> <label for="iesp-ten">Tênis</label> <br>
+                <input type="checkbox" name="esp-num" id="iesp-num"> <label for="iesp-num">Nenhum</label> <br>
+            </fieldset>
+            <div class="botao">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </form>
+    </main>
+</body>
+</html>

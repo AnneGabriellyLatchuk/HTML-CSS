@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to left, #363537, #EF2D56);
+}
+h1{
+    text-align: center;
+    color:#EBDCCB;
+}
+a{
+    color:#EF2D56;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: #280004;
+}
+a:hover{
+    color:#EBDCCB;
+    text-decoration: underline;
+}
+a::before{
+    content: '☞ ';
+    color:white;
+}
+a::after{
+    content: ' ☜';
+    text-decoration: none;
+    font-weight: normal;
+    color:white;
+}

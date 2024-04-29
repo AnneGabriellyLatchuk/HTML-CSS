@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+body{
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/8296287-capas-de-embalagem-de-suco-de-padrao-de-maca-sem-costura-para-tecido-de-toalha-de-mesa-vetor.jpg');
+    background-size: 400px 400px;
+    background-repeat: repeat;
+}
+header{
+    background-image: url('imagens/wallpaper001.jpg');
+}
+
+div.quadrado {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 188, 246);
+    width: 200px;
+    height:200px;
+}
+
+div#q1{
+    background-color: blueviolet;
+}
+div#q2{
+    background-image: linear-gradient(to bottom, blue, rgb(235, 100, 123));
+}
+div#q3{
+    background-image: url('imagens/pattern001.png');
+}
+
+div.retangulo{
+    background-image: url('imagens/wallpaper002.jpg');
+    height: 200px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+div#r1{
+    background-position: left top;
+}
+div#r2{
+    background-position: left center;
+}
+div#r3{
+    background-position: right bottom;
+}
+div#r4{
+    background-position: center center;
+}

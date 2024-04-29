@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#D2E0ED;
+    --cor2:#FFBE98;
+    --cor3:#F49345;
+    --cor4:#E06C49;
+}
+body{
+    background-color: var(--cor2);
+}
+#container{
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;
+    position: relative;
+    height: 96vh;
+    padding: 10px;
+    background-color: var(--cor4);
+}
+
+#conteudo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 200px;
+    width: 400px;
+    background-color: var(--cor3);
+
+    transform: translate(-50%, -50%);
+}

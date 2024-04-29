@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(90deg, #664E4C, #F9D4BB);
+
+}
+h1{
+    color:#BF8B85;
+    background-color: #DABECA;
+    text-align: center;
+}
+
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+    color:white;
+    background-color: crimson;
+    width: 300px;
+}
+div:hover{
+    color: crimson;
+}
